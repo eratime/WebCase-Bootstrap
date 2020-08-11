@@ -1,0 +1,149 @@
+@charset "utf-8";
+.navbar.navbar-default.top .container #navbar .navbar-nav.nav.navbar-right .text-center .dl {
+	border-radius: 30px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 6px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.navbar.navbar-default.top .container #navbar .navbar-nav.nav.navbar-right .text-center .dl:hover {
+	border-radius: 30px;
+	border: 1px solid #CCC;
+	color: #FFF;
+	background-color: #F00;
+}.navbar.navbar-default.top .container #navbar .navbar-nav.nav.navbar-right .text-center a {
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.navbar.navbar-default.top .container #navbar .navbar-nav.nav.navbar-right .text-center a:hover {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #F30;
+}
+
+.navbar.navbar-default.top .container .navbar-header .login {
+	height: 50px;
+	width: 100px;
+	margin-left: 15px;
+	display: inline-block;
+}
+.navbar.navbar-default.top .container .navbar-header .login img {
+	height: auto;
+	width: 100%;
+}
+.top {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.container-fluid.di {
+	margin-top: 66px;
+}
+
+
+.container .zho {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.container .zho h1 {
+	font-size: 50px;
+	font-family: "微软雅黑";
+	padding-bottom: 20px;
+}
+.container .zho p {
+	font-family: "微软雅黑";
+	padding: 0px;
+}
+
+.container .boxs .zi h3 {
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+.container .boxs .zi p {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+.container .boxs .zi .btn.xiaoyun {
+	border-radius: 30px;
+	border: 1px solid #F30;
+	background-color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 6px;
+	padding-right: 15px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	color: #F30;
+}
+.container .boxs .zi .btn.xiaoyun:hover {
+	color: #FFF;
+	background-color: #F00;
+	border: 1px solid #F00;
+}
+.container .boxs {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	overflow: hidden;
+}
+.bj {
+	background-color: #f1f0ed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.kehu_con {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.kehu_con img{
+	width:100%;
+	height:auto;
+}
+.footer.container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer.container .tub.pull-right span{
+	padding: 10px;
+}
+.footer.container .tub.pull-right span:hover {
+	border-radius: 30px;
+	color: #FFF;
+	background-color: #666;
+}
+.bj .container .row #kehu .carousel-control.left {
+	background-image: none;
+}
+.bj .container .row #kehu .carousel-control.right {
+	background-image: none;
+}
+.bj .container .row #kehu .carousel-control .glyphicon.glyphicon-chevron-left{
+	margin-left: -120px;
+}
+.bj .container .row #kehu .carousel-control .glyphicon.glyphicon-chevron-right{
+	margin-right: -120px;
+}
+@media screen and (max-width:1200px){
+	.bj .container .row #kehu .carousel-control .glyphicon.glyphicon-chevron-left{
+	margin-left: 0px;
+}
+.bj .container .row #kehu .carousel-control .glyphicon.glyphicon-chevron-right{
+	margin-right: 0px;
+}
+	}
+@media screen and (max-width:768px){
+.navbar.navbar-default.top .container #navbar .navbar-nav.nav.navbar-right .text-center{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	}
+}

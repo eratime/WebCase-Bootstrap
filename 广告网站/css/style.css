@@ -1,0 +1,206 @@
+@charset "utf-8";
+.top {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.top a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.banner {
+	height: auto;
+	width: 100%;
+}
+.banner img {
+	height: auto;
+	width: 100%;
+	display: block;
+}
+.fangan {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.fangan dl .one {
+	text-align: center;
+	font-weight: bolder;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 30px;
+	padding-top: 10px;
+}
+
+.fangan h2 {
+	text-align: center;
+	font-family: "微软雅黑";
+	margin: 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	font-weight: lighter;
+}
+.fangan dl dd {
+	margin: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+.fangan dl .two {
+	text-align: center;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.fangan dl dt {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.cha {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.cha dl dd a img {
+}
+
+.cha dl {
+}
+
+.fangan dl .jiax {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+}
+
+.cha dl {
+	float: left;
+	width: 31.33%;
+	margin: 0px;
+	display: block;
+	padding-top: 0px;
+	padding-right: 1%;
+	padding-bottom: 0px;
+	padding-left: 1%;
+}
+.cha dl dd {
+	margin: 0px;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+}
+.cha dl .one a {
+	color: #F00;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+
+.cha dl .one {
+	padding: 0px;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.cha dl dd a img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	width: 100%;
+}
+
+
+.cha dl .two {
+	margin: 0px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	color: #666;
+}
+.copy {
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #999;
+	font-size: 12px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+}
+
+.cha dl .two a {
+	color: #F00;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.fangan dl {
+	margin: 0px;
+	float: left;
+	width: 33.33%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+@media screen and (max-width:1250px){
+.top {
+	width: 100%;
+
+}
+.cha {
+	width: 100%;
+
+}	
+}
+@media screen and (max-width:768px){
+.fangan {
+	width: 100%;
+
+}
+.fangan dl {	
+	width: 100%;
+}	
+.cha dl {
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 50px;
+}	
+}

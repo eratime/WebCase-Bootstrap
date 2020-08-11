@@ -1,0 +1,90 @@
+@charset "utf-8";
+body {
+	background-color: #27c0d8;
+}
+.container-fluid.top {
+	background-color: #333333;
+	line-height: 30px;
+}
+.container-fluid.top .container button {
+	color: #FFF;
+}
+
+.you {
+	float: right;
+}
+.container-fluid.top2 {
+	background-color: #ffffff;
+	height: 120px;
+	padding-top: 30px;
+}
+.container .box {
+	border: 1px solid #999999;
+}
+
+
+.box1 {
+	background: linear-gradient(#f2f2f2,#d0d2cf);
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.container .box .box2 .form-group.wenben {
+	outline:none;
+	height: 200px;
+	width: 100%;
+	margin: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding: 1%;
+}
+.box2 {
+	height: 200px;
+}
+
+
+.box3 {
+	background-color: #dedede;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #CCC;
+}
+.box3 a {
+	float: right;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.container h1 {
+	color: #FFF;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.container p {
+	color: #FFF;
+	padding-bottom: 20px;
+}
+.container .box .box1 .dabo {
+
+}
+.dabo>button {
+	margin-bottom: 10px;
+}
+.dabo>div {
+	margin-bottom: 10px;
+}
+@media screen and (max-width:768px){
+	.top{
+	text-align: center;
+}
+
+.container-fluid.top .container .btn-link.you{
+	display: none;
+}
+.kuai{
+	display: block;
+}
+}

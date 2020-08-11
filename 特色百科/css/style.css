@@ -1,0 +1,33 @@
+@charset "utf-8";
+.top {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #f9f9f9;
+}
+body {
+	background-color: #e6165c;
+}
+.mian2 h2 {
+	color: #ff99cc;
+}
+
+.mian {
+	color: #FFF;
+}
+
+
+
+
+.mian2 p {
+	color: #FFF;
+}
+.container.mian .row.col-md-8.col-md-offset-2 .col-md-8.mian2 h5 {
+	color: #ff99cc;
+}
+.container.mian .row.col-md-8.col-md-offset-2 .col-md-8.mian2 .text {
+	padding-top: 20px;
+}
+.container.mian .row.col-md-8.col-md-offset-2 .col-md-8.mian2 .tu .col-md-4 {
+	padding-bottom: 20px;
+}

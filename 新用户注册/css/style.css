@@ -1,0 +1,38 @@
+@charset "utf-8";
+.top {
+	margin-top: 100px;
+	background-color: rgba(255,255,255,0.5);
+	padding-bottom: 50px;
+}
+.container.top .form-horizontal .col-md-6 .checkbox.col-md-10.checkboxxia {
+	margin-bottom: 10px;
+}
+.container.top .form-horizontal .col-md-6 .checkbox.col-md-10.checkboxxia .col-md-4 {
+	margin-bottom: 10px;
+}
+.container.top h3 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(255,0,0,0.5);
+	padding-bottom: 20px;
+}
+.container.top .form-horizontal .col-md-6.you {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: rgba(255,0,0,0.5);
+}
+@media screen and (max-width:950px){
+.container.top .form-horizontal .col-md-6.you {
+	border-left-width: 1px;
+	border-left-style: none;
+	border-left-color: rgba(255,0,0,0.5);
+}
+
+}
+@media screen and (max-width:768px){
+.container.top .form-horizontal .col-md-6.you .form-group .form-group.checkbox.col-md-10.checkboxxia.fu .col-sm-4{
+	display: inline;
+
+
+	}	
+}

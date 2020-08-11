@@ -1,0 +1,171 @@
+@charset "utf-8";
+.top {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.container.top .login {
+	padding-bottom: 20px;
+}
+
+.you {
+	float: right;
+}
+.zuo {
+	float: left;
+}
+.zc {
+	border-radius: 45px;
+	height: 40px;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #00cc00;
+	color: #FFF;
+	border: 1px solid #CCC;
+}
+.dl {
+	border-radius: 45px;
+	height: 40px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+}
+
+.container.top .you .btn.zc:hover {
+	box-shadow:0px 0px 6px #FFFFFF inset;
+}
+.nav_icon {
+	height: auto;
+	width: 30px;
+	margin-left: 15px;
+}
+
+.container.top .you .btn.dl:hover {
+	box-shadow:0px 0px 6px #999999 inset;
+}
+.container.banner .btn.btn-reg:hover {
+	box-shadow: 0px 0px 6px #FFFFFF inset;
+	color: rgba(0,0,0,1);
+}
+
+.container.top .you .btn {
+	margin-right: 15px;
+}
+.container .btn.btn-reg {
+	background-color:rgb(0,204,0);
+	border:1px solid rgb(204,204,204);
+	border-radius:30px;
+	font-size:24px;
+	color:rgb(255,255,255);
+	font-weight:bold;
+	padding-right:20px;
+	padding-left:20px;
+}
+.banner {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.banner h1 {
+	font-size: 100px;
+	font-weight: bold;
+}
+.banner h2 {
+	font-size: 40px;
+	color: #5fc8db;
+}
+.banner p {
+	color: #999;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.logo_list {
+	background-color: #f7f7f7;
+}
+.logo_list .row {
+	background-color: rgba(240,173,78,1);
+	height: auto;
+	width: 100%;
+}
+ .btn-warning {
+	border-radius:0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.container-fluid .btn-group .btn.btn-warning.col-lg-1.col-md-2.col-sm-4.col-xs-6 img{
+	width:100%;
+	height:auto;
+}
+.container-fluid .row .zuok {
+	background-image: url(../images/Style%20Guide.png);
+	background-repeat: no-repeat;
+	height: 800px;
+	background-color: #fcb100;
+	background-position: center 200px;
+	color: #FFF;
+	text-align: center;
+	position: relative;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+}
+.container-fluid .row .youk {
+	background-image: url(../images/Illustration.png);
+	background-repeat: no-repeat;
+	height: 800px;
+	background-color: #f26651;
+	background-position: center 200px;
+	color: #FFF;
+	text-align: center;
+	position: relative;
+	padding-top: 0px;
+	
+}
+.ying {
+	background-color: rgba(102,102,102,0.5);
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	left: 0px;
+}
+.container-fluid .row .col-md-6 h2 {
+	font-size: 36px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+	font-weight: lighter;
+}
+.container-fluid .row .col-md-6 p {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: rgba(255,255,255,0.5);
+}
+.foot {
+	text-align: right;
+	color: rgba(255,255,255,1);
+	background-image: url(../images/Footer%20Mountains.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-color: #02546e;
+	height: 300px;
+	padding-top: 20px;
+}
+.foot h4 {
+	font-weight: normal;
+}
+.foot p {
+	color: rgba(255,255,255,0.5);
+}
+.banner  span {
+	font-family: "微软雅黑";
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+}
